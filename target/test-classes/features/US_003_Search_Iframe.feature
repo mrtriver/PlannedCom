@@ -15,19 +15,19 @@ Feature: iframe search
       | tag_id |
       | [1]    |
       | [2]    |
-      | [3]    |
-      | [4]    |
-      | [5]    |
-      | [6]    |
-      | [7]    |
-      | [8]    |
-      | [9]    |
-      | [10]   |
-      | [11]   |
-      | [12]   |
-      | [13]   |
-      | [14]   |
-      | [15]   |
+#      | [3]    |
+#      | [4]    |
+#      | [5]    |
+#      | [6]    |
+#      | [7]    |
+#      | [8]    |
+#      | [9]    |
+#      | [10]   |
+#      | [11]   |
+#      | [12]   |
+#      | [13]   |
+#      | [14]   |
+#      | [15]   |
 
   Scenario: Search click-ability
     When user verifies "[1]" is enabled
@@ -35,24 +35,18 @@ Feature: iframe search
     When user verifies "[3]" is enabled
     When user verifies "[4]" is enabled
     When user verifies "[5]" is enabled
-    When user verifies "[6]" is enabled
-    When user verifies "[7]" is enabled
-    When user verifies "[8]" is enabled
-    When user verifies "[9]" is enabled
-    When user verifies "[10]" is enabled
-    When user verifies "[11]" is enabled
-    When user verifies "[12]" is enabled
-    When user verifies "[13]" is enabled
-    When user verifies "[14]" is enabled
-    When user verifies "[15]" is enabled
+#    When user verifies "[6]" is enabled
+#    When user verifies "[7]" is enabled
+#    When user verifies "[8]" is enabled
+#    When user verifies "[9]" is enabled
+#    When user verifies "[10]" is enabled
+#    When user verifies "[11]" is enabled
+#    When user verifies "[12]" is enabled
+#    When user verifies "[13]" is enabled
+#    When user verifies "[14]" is enabled
+#    When user verifies "[15]" is enabled
 
-#  Scenario Outline: dropdown option visibility in the search
-#    When user clicks dropdown
-#    And user verifies "<text>" option is visible
-#    Examples:
-#      | text  |
-#      | type  |
-#      | floor |
+
 
   Scenario Outline: dropdown option click-ability in the search
     When user clicks dropdown
