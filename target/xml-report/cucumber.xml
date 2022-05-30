@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="3.141">
+    <testcase classname="Home page elements and show case play" name="TC_001 Buttons clickable and texts visible on the home page" time="2.661">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given user is on the home page..............................................failed
+Then user verifies Get availibility button is clickable.....................skipped
+Then user verifies Save button is clickable.................................skipped
+When user clicks show more, the page scrolls downs..........................skipped
+Then user verifies we guarantiee text is visible............................skipped
+Then user verifies Industrial Event text is visible.........................skipped
+Then user verifies Montreal, $$ and star rate is visible....................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.US_001_HomePageStepDefs.userIsOnTheHomePage(US_001_HomePageStepDefs.java:29)
+	at ✽.user is on the home page(file:///Users/muratirmak/Documents/plannedProject/./src/test/resources/features/US_001_HomePage.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="show case play" name="TC_002 show case play elements and their functionalities" time="0.223">
+        <failure message="" type="java.lang.NullPointerException">
+            <![CDATA[Given user is on the home page..............................................failed
+When user clicks on the Show case play button...............................skipped
+Then user verifies if the Show case plays...................................skipped
+When user clicks on the Share this space button.............................skipped
+And user clics on the Linkedin button.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.US_001_HomePageStepDefs.userIsOnTheHomePage(US_001_HomePageStepDefs.java:29)
+	at ✽.user is on the home page(file:///Users/muratirmak/Documents/plannedProject/./src/test/resources/features/US_002_ShowCasePlay.feature:6)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
